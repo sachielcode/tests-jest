@@ -4,7 +4,9 @@
   "description": "Unit tests with jest",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "npx jest --coverage"
   },
   "keywords": [],
   "author": "",
